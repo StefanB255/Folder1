@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Semafor</title>
+</head>
+<body>
+   <h1>Semafori</h1>
+    <div id="semafor">
+        <div class="boje"></div>
+        <div class="boje"></div>
+        <div class="boje"></div>
+    </div>
+    <br>
+    
+    <div id="semafor2">
+        <div class="boje2"></div>
+        <div class="boje2"></div>
+        <div class="boje2"></div>
+    </div>
+    
+    
+    <div id="wrapp">
+       <h1>Album</h1>
+        <img src="img/slika1.jpg" alt="" id="current">
+        <img src="img/slika1.jpg" alt="" class="thumb" >
+        <img src="img/slika2.jpg" alt="" class="thumb" >
+        <img src="img/slika3.jpg" alt="" class="thumb" >
+        <img src="img/slika4.jpg" alt="" class="thumb" >
+        <img src="img/slika5.jpg" alt="" class="thumb" >
+        <img src="img/slika6.jpg" alt="" class="thumb" >
+    </div>
+    
+    <h1>Sat</h1>
+    <div id="timer">
+        
+    </div>
+    
+    <h1>Poslovna prijava</h1>
+    <form action="second.html">
+        <h2>Kontakt Forma
+           <br>
+            <span>Molimo popunite sva polja.</span>   
+        </h2>
+        <label>
+            <span>Vase ime:</span>
+            <input id="inp1" type="text" name="name" placeholder="Vase ime i prezime">
+        </label>
+        
+        <label>
+            <span>Vas Email:</span>
+            <input id="email" type="email" name="email" placeholder="Validna Email Adresa">
+        </label>
+        
+        <label>
+            <span>Vas Info:</span>
+            <textarea name="message" id="message" placeholder="Kratke Informacije O Vama"></textarea>                           
+        </label>
+        <label>
+            <span>Subject:</span><select name="selection">
+                <option value="posao">
+                    Prijava za posao
+                </option>
+                <option value="kreditiranje">
+                    Prijava za kreditiranje
+                </option>
+            </select>
+        </label>
+        <label>
+            <span>&nbsp</span>
+            <input type="button" id="sendBtn" class="button" value="Send" />
+        </label>
+    </form>
+    
+    <nav>
+        <ul>
+            <li id="parent">Laptopovi
+            <ul>
+                <li id="child1">Asus
+                    <ul id="child2">
+                        <li id="child3">Brzi
+                            <ul >
+                                <li id="child4">Verovatno jeste</li>
+                            </ul>
+                        </li>
+                        <li id="child3">Spori
+                            <ul id="child4">
+                                <li>Možda jeste</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+<!--
+                <li id="fchild">Lenovo
+                    <ul>
+                        <li>ThinkPad Windows 8</li>
+                        <li>Lenovo Windows 10 i5Core</li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+            <li>Procesori
+                <ul>
+                    <li id="fchild">IntelCore i5
+                    <ul>
+                        <li>Integrisana</li>
+                    </ul></li>
+                </ul>
+                <ul>
+                    <li id="fchild">RadeonAMD</li>
+                </ul>
+            </li>
+-->
+        </ul>
+    </nav>
+    
+    <script src="main.js"></script>
+</body>
+</html>
