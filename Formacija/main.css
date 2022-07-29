@@ -1,0 +1,107 @@
+*{
+    text-align: center;
+    font-size: 60px;
+}
+#semafor{
+    width: 300px;
+    height: 630px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: auto;
+}
+.boje{
+    width: 150px;
+    border: 1px solid silver;
+    border-radius: 50%;
+    height: 150px;
+    margin: 45px auto;
+    line-height: 10px;
+}
+#semafor2{
+    width: 300px;
+    height: 630px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: auto;
+}
+.boje2{
+    width: 150px;
+    border: 1px solid silver;
+    border-radius: 50%;
+    height: 150px;
+    margin: 45px auto;
+    line-height: 10px;
+}
+
+#wrapp{
+    width: 70%;
+    height: 50%;
+    margin: 100px auto;
+    border 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+#current{
+    width: 90%;
+    height: 70%;
+    border: 3px solid black;
+    margin: 15px;
+    
+}
+.thumb{
+    width: 300px;
+    height: 150px;
+    margin: 10px auto;
+}
+#timer{
+    background-color: chocolate;
+    font-size: 60px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    line-height: 6.5;
+    color: white;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+form{
+    background-color: #3d7625;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    border-radius: 55px;
+}
+form label{
+    margin: 10px 0;
+    align-items: center;   
+}
+label input, textarea{
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+#sendBtn{
+    width: 500px;
+}
+nav{
+    
+    margin: 0 auto;
+    list-style-type: disclosure-closed;
+}
+nav ul li{
+    text-align: left;
+    justify-content: center;
+    list-style-type: disclosure-closed;
+    cursor: pointer;
+    
+}
+#child1{
+    display: none;
+}
+#child2{
+    display: none;
+}
+#child4{
+    display: none;
+}
